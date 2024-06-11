@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border: 1px solid sienna;
+    background-color: orange;
+}
+.boton{
+    height: 40px;
+    margin-top: 40px;
+    cursor: pointer;
+}
